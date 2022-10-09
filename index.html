@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Meeting Minutes</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="./favicon.png">
+  </head>
+  <body>
+    <header>
+        <h1>Meeting Minutes</h1>
+        <h2>Team Introductions and Initial Brainstorming</h2>
+        <h2>October 9, 2022</h2>
+        <nav class="navigate">
+            <ul>
+                <li class="navigate"><a href="#survey">Survey</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <h3>Attendance</h3>
+        <ul>
+            <li>Isabelle</li>
+            <li>Monica</li>
+            <li>Rachel</li>
+            <li>Phoebe</li>
+        </ul>
+        <h3>Agenda</h3>
+        <ol>
+            <li><strong>Introduce</strong> ourselves</li>
+            <li>Discuss any previous <b>web dev experience</b> team members have</li>
+            <li>Consider how <strong>roles</strong> should be assigned</li>
+            <li>Familiarize ourselves with the <b>project purpose</b></li>
+        </ol>
+        <p>
+            Now that we have taken attendance and shared the agenda, we can proceed.
+        </p>
+        <hr>
+        <h3>Items Discussed</h3>
+        <h3>Unfinished Business</h3>
+        <p>Since this is our first meeting, we did not have any unfinished business to discuss.</p>
+        <h3>New Business</h3>
+        <p>The first new items we need to discuss are team member introductions and previous experience. Then, we need to address the focus and scope of our project.</p>
+        <h4>Introductions</h4>
+        <p>All team members introduced themselves. All team members are UCSD 3rd and 4th years, but are from a few different departments: Math, CSE, and Cognitive Science.</p>
+        <h4>Previous Web Dev Experience</h4>
+        <p>Isabelle has previous <i>user interface design</i> experience. Monica prefers to focus on <em>back-end development</em>. Phoebe likes to do <i>front-end development</i>. Rachel is a <em>full-stack</em>  developer.</p>
+        <h4>Assignment of Roles</h4>
+        <p>Rachel was assigned to be team leader, but no other decisions were made. The team will consult again at the next meeting.</p>
+        <h4>Project Purpose</h4>
+        <p>The team discussed that the goal of the project was to design a product that prioritized user privacy and ownership of content. One consideration for a domain was journaling, which Phoebe liked because of its relative simplicity. Selecting a project that doesn't demand too many features will allow the team to produce quality work.</p>
+        <h4>Diagram</h4>
+        <img src="flowchart.png">
+        <hr>
+        <details>
+            <summary>Meeting Summary</summary>
+            <p>During this meeting, we got to know each other and discussed our project focus.</p>
+        </details>
+        <hr>
+        <p>After all this discussion, the team needed some relaxation. Here's some ocean content to help with that:</p>
+        <audio controls src="./oceansound.mp3">
+        <br>
+        <video controls src="ocean.mp4">
+    </main>
+    <hr>
+    <section>
+        <form id="survey">
+            <fieldset>
+                <h2>Survey</h2>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <br>
+                <div>
+                    <label for="date">Date</label>
+                    <input type="date" id="date"  name="date">
+                </div>
+                <br>
+                <div>
+                    <p>Select your year at UCSD:</p>
+                    <input type="radio" id="first" name="first" value="first">
+                    <label for="">1st</label>
+                    <br>
+                    <input type="radio" id="second" name="second" value="second">
+                    <label for="">2nd</label>
+                    <br>
+                    <input type="radio" id="third" name="third" value="third">
+                    <label for="">3rd</label>
+                    <br>
+                    <input type="radio" id="fourth" name="fourth" value="fourth">
+                    <label for="">4th</label>
+                    <br>
+                    <input type="radio" id="fifth" name="fifth" value="fifth">
+                    <label for="">5th</label>
+                </div>
+                <br>
+                <div>
+                    <p>Check all you have experience in:</p>
+                    <input type ="checkbox" id="front" name="front">
+                    <label for="back">Front-end</label>
+                    <br>
+                    <input type ="checkbox" id="back" name="back">
+                    <label for="back">Back-end</label>                
+                </div>
+                <br>
+                <div>
+                    <label for="fav-color">What's your favorite color?</label>
+                    <input list="colors" id="fav-color" name="fav-color">
+                    <datalist id="colors">
+                        <option value="red"></option>
+                        <option value="orange"></option>
+                        <option value="yellow"></option>
+                        <option value="green"></option>
+                        <option value="blue"></option>
+                        <option value="purple"></option>
+                    </datalist>
+                </div>
+                <br>
+                <div>
+                    <label for="favorite-quarter">Select your favorite quarter:</label>
+                    <select name="favorite-quarter-select" id="favorite-quarter">
+                        <option value="">Select an option</option>
+                        <option value="fall">Fall Quarter</option>
+                        <option value="winter">Winter Quarter</option>
+                        <option value="spring">Spring Quarter</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="comments">Leave any comments here:</label>
+                    <br>
+                    <textarea id="comments" name ="comments">[your thoughts here]</textarea>
+                </div>
+                <br>
+                <button>Submit</button>
+            </fieldset>
+        </form>
+    </section>
+    <hr>
+    <footer>
+        <span>Created at UCSD in 2022</span>
+    </footer>
+  </body>
+</html>
