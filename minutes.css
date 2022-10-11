@@ -1,28 +1,28 @@
-header: {
+header {
     background-color: 'purple';
 }
 
-#minutes: {
-    color: #B1D3F8;
+#minutes {
+    color: #397386;
 }
 
-h2: {
+h2 {
     color: rgb(177, 211, 248);
 }
 
-h3: {
+h3 {
     color: hsl(25, 51%, 71%);
 }
 
-footer: {
+footer {
     color: #7EA;
 }
 
-#survey: {
+#survey {
     color: hsla(300, 100%, 25%, 0.4);
 }
 
-#creds: {
+#creds {
     color: rgba(63, 53, 255, 0.8);
 }
 
