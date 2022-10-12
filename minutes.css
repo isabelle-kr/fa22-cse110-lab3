@@ -1,5 +1,5 @@
 header {
-    background-color: silver;
+    background-color: lightgrey;
 }
 
 #minutes {
@@ -10,16 +10,18 @@ h2 {
     color: rgb(177, 211, 248);
 }
 
-h3 {
+h3, h4 {
     color: hsl(25, 51%, 71%);
 }
 
 footer {
     color: #7EA;
+    background-color: #eccef1;
 }
 
 #survey {
     color: hsla(300, 100%, 25%, 0.4);
+    background-color: #f5c1e2;
 }
 
 #creds {
