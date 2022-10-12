@@ -5,6 +5,7 @@ header {
 #minutes {
     color: #397386;
     font-family: 'Silkscreen', cursive;
+    font-size: 36pt;
 }
 
 h2 {
@@ -23,6 +24,7 @@ footer {
 #survey {
     color: hsla(300, 100%, 25%, 0.4);
     background-color: #f5c1e2;
+    width: 50vw;
 }
 
 #creds {
@@ -33,6 +35,10 @@ button:active {
     color: hsla(26, 94%, 53%, 0.4);
 }
 
+button {
+    width: 150px;
+}
+
 a:hover {
     color: red;
 }
@@ -40,5 +46,13 @@ a:hover {
 #ocean {
     text-decoration: blue wavy underline;
     text-align: center;
+}
+
+ol, ul {
+    font-size: 1.5rem;
+}
+
+li {
+    font-size: 0.75em;
 }
 
