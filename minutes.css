@@ -29,3 +29,11 @@ footer {
     color: rgba(63, 53, 255, 0.8);
 }
 
+button:active {
+    color: hsla(300, 100%, 25%, 0.4);
+}
+
+a:hover {
+    color: red;
+}
+
