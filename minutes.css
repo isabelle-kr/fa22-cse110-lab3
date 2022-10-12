@@ -90,5 +90,6 @@ li {
 
 #surveydiv {
     width: 200px;
+    text-align: center;
     margin: auto;
 }
