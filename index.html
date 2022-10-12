@@ -54,7 +54,7 @@
         <h4>Project Purpose</h4>
         <p>The team discussed that the goal of the project was to design a product that prioritized user privacy and ownership of content. One consideration for a domain was journaling, which Phoebe liked because of its relative simplicity. Selecting a project that doesn't demand too many features will allow the team to produce quality work.</p>
         <h4>Diagram</h4>
-        <img src="flowchart.png" alt="Diagram from meeting">
+        <img id="chart" src="flowchart.png" alt="Diagram from meeting">
         <hr>
         <details>
             <summary>Meeting Summary</summary>
@@ -62,9 +62,9 @@
         </details>
         <hr>
         <p id="ocean">After all this discussion, the team needed some relaxation. Here's some ocean content to help with that:</p>
-        <audio controls src="oceansound.mp3"></audio>
+        <audio controls src="oceansound.mp3" style="width:5in;"></audio>
         <br>
-        <video controls width="500">
+        <video id ="oceanvid" controls style="width:5in;">
             <source src="oceanmovie.mp4" type="video/mp4">
         </video>
     </main>
@@ -72,7 +72,7 @@
     <section>
         <form id="survey">
             <fieldset>
-                <h2>Survey</h2>
+                <h2 id="surveytitle">Survey</h2>
                 <div>
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name">
