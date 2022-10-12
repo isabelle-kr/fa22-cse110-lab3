@@ -6,7 +6,6 @@ header {
     color: #397386;
     font-family: 'Silkscreen', cursive;
     font-size: 36pt;
-    margin: auto;
 }
 
 h2 {
@@ -87,4 +86,8 @@ li {
 
 #chart {
     border: 5px dashed navy;
+}
+
+#surveydiv {
+    margin: auto;
 }
