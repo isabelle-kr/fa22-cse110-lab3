@@ -89,5 +89,6 @@ li {
 }
 
 #surveydiv {
+    width: 200px;
     margin: auto;
 }
