@@ -6,6 +6,7 @@ header {
     color: #397386;
     font-family: 'Silkscreen', cursive;
     font-size: 36pt;
+    margin: auto;
 }
 
 h2 {
@@ -56,3 +57,34 @@ li {
     font-size: 0.75em;
 }
 
+#surveytitle {
+    border-style: double;
+    border-color: #660a5d;
+    border-radius: 10px;
+    border-width: 2px;
+
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+}
+
+#oceanvid {
+    border-top: 3px solid blue;
+    border-bottom: 3px solid blue;
+    border-left: 3px solid blue;
+    border-right: 3px solid blue;
+
+    padding: 0.25em 0.5em 0.25em 0.5em;
+
+    margin: 0.5em 0.5em 0.5em 0.5em;
+}
+
+#chart {
+    border: 5px dashed navy;
+}
