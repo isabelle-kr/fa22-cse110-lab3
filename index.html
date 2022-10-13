@@ -23,13 +23,16 @@
     </header>
     <hr>
     <main>
-        <h3>Attendance</h3>
+        <div id="attendandagenda">
+        <div id="attend"><h3>Attendance</h3>
         <ul>
             <li>Isabelle</li>
             <li>Monica</li>
             <li>Rachel</li>
             <li>Phoebe</li>
         </ul>
+        </div>
+        <div id="agenda">
         <h3>Agenda</h3>
         <ol>
             <li><strong>Introduce</strong> ourselves</li>
@@ -37,6 +40,8 @@
             <li>Consider how <strong>roles</strong> should be assigned</li>
             <li>Familiarize ourselves with the <b>project purpose</b></li>
         </ol>
+        </div>
+        </div>
         <p>
             Now that we have taken attendance and shared the agenda, we can proceed.
         </p>
@@ -73,7 +78,7 @@
     <section>
         <form id="survey">
             <fieldset>
-                <h2 id="surveytitle">Survey</h2>
+                <div id="surveytitlediv"><h2 id="surveytitle">Survey</h2></div>
                 <div>
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name">
@@ -147,6 +152,7 @@
     <hr>
     <footer>
         <span id="creds">Created at UCSD in 2022</span>
+        <span id="secret">for CSE110</span>
     </footer>
   </body>
 </html>
