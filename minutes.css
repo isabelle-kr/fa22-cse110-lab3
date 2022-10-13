@@ -1,6 +1,8 @@
 header {
     background-color: lightgrey;
     display: inline;
+    position: sticky;
+    top: 50px;
 }
 
 #minutes {
@@ -84,6 +86,9 @@ li {
     padding: 0.25em 0.5em 0.25em 0.5em;
 
     margin: 0.5em 0.5em 0.5em 0.5em;
+
+    position: relative;
+    left: 100px;
 }
 
 #chart {
