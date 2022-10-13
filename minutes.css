@@ -120,3 +120,8 @@ li {
     display: none;
 }
 
+@media (min-width: 700px) {
+    #minutes {
+        color: #660a5d
+    }
+}
