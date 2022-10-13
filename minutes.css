@@ -3,7 +3,7 @@ header {
 }
 
 #minutes {
-    color: #397386;
+    color: hsl(195, 40%, 37%);
     font-family: 'Silkscreen', cursive;
     font-size: 36pt;
 }
@@ -17,8 +17,10 @@ h3, h4 {
 }
 
 footer {
-    color: #7EA;
+    color: rgb(7, 86, 41);
     background-color: #eccef1;
+    min-width: 170px;
+    max-width: 1400px;
 }
 
 #survey {
@@ -37,6 +39,7 @@ button:active {
 
 button {
     width: 150px;
+    height: 40px;
 }
 
 a:hover {
@@ -73,6 +76,10 @@ li {
     padding-right: 0.1em;
 }
 
+#surveytitlediv {
+    position: static;
+}
+
 #oceanvid {
     border-top: 3px solid blue;
     border-bottom: 3px solid blue;
@@ -103,3 +110,13 @@ li {
     position: sticky;
     top: 10px;
 }
+
+#attend, #agenda {
+    display: inline-block;
+    padding:2em 2em 2em 2em
+}
+
+#secret {
+    display: none;
+}
+
