@@ -1,8 +1,8 @@
-header {
+header { /*change the header background to light grey*/
     background-color: lightgrey;
 }
 
-#minutes {
+#minutes { 
     color: hsl(195, 40%, 37%);
     font-family: 'Silkscreen', cursive;
     font-size: 36pt;
@@ -59,7 +59,7 @@ li {
     font-size: 0.75em;
 }
 
-#surveytitle {
+#surveytitle { /*style the "Survey" title*/
     border-style: double;
     border-color: #660a5d;
     border-radius: 10px;
@@ -86,9 +86,9 @@ li {
     border-left: 3px solid blue;
     border-right: 3px solid blue;
 
-    padding: 0.25em 0.5em 0.25em 0.5em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
 
-    margin: 0.5em 0.5em 0.5em 0.5em;
+    margin: 2em 2em 2em 2em;
 
     position: relative;
     left: 100px;
@@ -132,6 +132,7 @@ li {
     column-gap: 10px;
     row-gap: 30px;
     justify-items: center;
+    padding: 1em 1em 1em 1em;
 }
 
 #greeting {
@@ -185,6 +186,6 @@ label + input {
     border-color: #f6588a;
 }
 
-p.alt {
+p.alt { /*make alternating paragraphs (paragraphs I added class alt to) different colors*/
     color:rgb(13, 178, 65);
 }
