@@ -6,7 +6,6 @@ header {
     color: #397386;
     font-family: 'Silkscreen', cursive;
     font-size: 36pt;
-    
 }
 
 h2 {
@@ -99,8 +98,9 @@ li {
     margin: auto;
 }
 
-#nav {
+#welcome {
     display: inline;
     position: sticky;
     top: 10px;
+    text-align: right;
 }
