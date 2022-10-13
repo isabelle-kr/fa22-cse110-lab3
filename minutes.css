@@ -125,3 +125,33 @@ li {
         color: #660a5d
     }
 }
+
+#cal {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    column-gap: 10px;
+    row-gap: 30px;
+    justify-items: center;
+}
+
+#greeting {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#hello {
+    background-color: #ecc30e;
+    flex-grow: 1;
+}
+
+#greetings{
+    background-color: #f6588a;
+    flex-grow: 2;
+}
+
+#hi {
+    background-color: #cd89ef;
+    flex-grow: 1;
+    flex-basis: 150px;
+}
