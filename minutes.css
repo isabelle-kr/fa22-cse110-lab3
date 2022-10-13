@@ -97,6 +97,9 @@ li {
     width: 200px;
     text-align: right;
     margin: auto;
+}
+
+#nav {
     display: inline;
     position: sticky;
     top: 10px;
