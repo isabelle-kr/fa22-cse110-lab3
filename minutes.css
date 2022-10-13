@@ -6,14 +6,11 @@ header {
     color: #397386;
     font-family: 'Silkscreen', cursive;
     font-size: 36pt;
-    display: inline;
-    position: sticky;
-    top: 50px;
     
 }
 
 h2 {
-    color: rgb(177, 211, 248);
+    color: rgb(8, 115, 228);
 }
 
 h3, h4 {
@@ -98,6 +95,9 @@ li {
 
 #surveydiv {
     width: 200px;
-    text-align: center;
+    text-align: right;
     margin: auto;
+    display: inline;
+    position: sticky;
+    top: 10px;
 }
