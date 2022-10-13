@@ -25,7 +25,6 @@ footer {
     color: hsla(300, 100%, 25%, 0.4);
     background-color: #f5c1e2;
     width: 50vw;
-    display: block;
 }
 
 #creds {
@@ -94,13 +93,12 @@ li {
 
 #surveydiv {
     width: 200px;
-    text-align: right;
+    text-align: center;
     margin: auto;
 }
 
 #welcome {
-    display: inline;
     position: sticky;
     top: 10px;
-    text-align: right;
+    right: 20px;
 }
