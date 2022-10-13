@@ -1,14 +1,15 @@
 header {
     background-color: lightgrey;
-    display: inline;
-    position: sticky;
-    top: 50px;
 }
 
 #minutes {
     color: #397386;
     font-family: 'Silkscreen', cursive;
     font-size: 36pt;
+    display: inline;
+    position: sticky;
+    top: 50px;
+    
 }
 
 h2 {
