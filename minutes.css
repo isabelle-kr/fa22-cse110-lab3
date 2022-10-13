@@ -155,3 +155,36 @@ li {
     flex-grow: 1;
     flex-basis: 150px;
 }
+
+input[type="text"] {
+    background-color:rgb(171, 203, 237);
+}
+
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navigate {
+    text-decoration: overline;
+}
+
+ul li {
+   color: #a26e9d
+}
+
+ol > li {
+    color: #ecc30e
+}
+
+input ~ label {
+    color: #642980;
+}
+
+label + input {
+    border-width: 5px;
+    border-color: #f6588a;
+}
+
+p.alt {
+    color:rgb(13, 178, 65);
+}
